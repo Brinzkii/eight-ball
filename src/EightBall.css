@@ -1,0 +1,48 @@
+.EightBall {
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.EightBall:hover {
+    cursor: pointer;
+}
+
+.EightBall-message-container {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    top: 75px;
+    margin: auto;
+    color: whitesmoke;
+    font-size: large;
+    transition: background-color 1.5s ease-out;
+}
+
+.EightBall-message {
+    position: relative;
+    top: 115px;
+}
+
+.EightBall-tracking {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.EightBall-reset {
+    margin: 0px;
+    width: 80px;
+    height: 35px;
+    background-color: #ffbf00;
+    transition: background-color .25s ease-in-out;
+    border-radius: .2cm
+}
+
+.EightBall-reset:hover {
+    cursor: pointer;
+    background-color: #b28500;
+    transition: background-color .25s ease-in-out;
+}
